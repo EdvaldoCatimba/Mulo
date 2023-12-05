@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    margin: auto;
+    width: 80%;
+}
+.cab{
+    background-color: rgb(70, 68, 68);
+    padding: 20px;
+    margin-bottom: 5px;
+    
+}
+.logo:hover{
+width: 100px;
+}
+.lst{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.l{
+    text-decoration: none;
+    color: aqua;
+    font-size: 24px;
+}
+.l:hover{
+background-color: aliceblue;
+border-radius: 9px;
+padding: 5px;
+color: red;
+}
+.mar{
+    border: 1.2px solid red;
+    padding: 4px;
+    text-shadow: 1px 1px white;
+    border-radius: 9px;
+    background-color:rgb(70, 68, 68);
+    color: aqua;
+}
+.lista{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main{
+    margin-top: 5px;
+}
+hr{
+    margin: auto;
+    background-color: rgb(70, 68, 68);
+    border-radius: 50px;
+    width: 50%;
+    height: 20px;
+}
+.fig{
+    background-color: bisque;
+    display: inline-block;
+    padding: 5px;
+}
+.p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.right{
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
