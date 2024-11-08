@@ -1,0 +1,38 @@
+/* FotosApp.Style.css */
+
+  .con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  h1 {
+    color: #fdfdfd;
+  }
+  .pad, .add{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .label{
+    width: 110px;
+    padding: 20px;
+    color: #00ccff;
+    background-color: #464545;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  

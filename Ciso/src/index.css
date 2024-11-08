@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark light;
+}
+
+
+body {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+body::-webkit-scrollbar{
+  width: 8px;
+  padding: 0 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(255, 0, 119);
+  width: 10px;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+body::-webkit-scrollbar-track{
+  width: 15px;
+  background-color: beige;
+  margin: 0 5px;
+}
+
+@media (max-width:768px){
+  body::-webkit-scrollbar{
+    width: 0;
+  }
+}
+
